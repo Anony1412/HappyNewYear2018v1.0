@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="a0.happynewyear2018v1.anony1412.itptit.happynewyear.MainActivity"
+    android:id="@+id/rl_screen"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_margin="24dp"
+        android:layout_height="56dp">
+    <Button
+        android:id="@+id/btn_showMusicList"
+        android:layout_weight="1"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/music_48"/>
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:background="@null"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/close_48"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

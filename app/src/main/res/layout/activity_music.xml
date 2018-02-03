@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#c7bcd1e2"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <ImageButton
+            android:id="@+id/ibtn_undo"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:src="@drawable/undo_32"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Danh sách bài hát"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#ff0008"/>
+    </LinearLayout>
+
+    <include layout="@layout/listview_music"></include>
+</LinearLayout>
